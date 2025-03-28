@@ -4,7 +4,7 @@ services:
   todo-application:
      image: naveenaedara1/todo-application-image:latest
      environment:
-       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db-service:3306/tododb
+       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/tododb
        SPRING_DATASOURCE_USERNAME: root
        SPRING_DATASOURCE_PASSWORD: Root@123
      ports:
